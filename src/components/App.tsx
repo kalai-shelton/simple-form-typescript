@@ -1,10 +1,12 @@
+import { CardsList } from './CardContainer';
 import {RegForm} from './RegForm/RegForm'
 
 function App() {
   return (
     <div className="">
      
-      <RegForm/>
+      {/* <RegForm/> */}
+      <CardsList/>
 
     </div>
   );
