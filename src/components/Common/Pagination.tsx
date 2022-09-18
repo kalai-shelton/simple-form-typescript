@@ -14,7 +14,7 @@ export const PaginationComponent: React.FC<Props> = ({
 }) => {
   return (
     <div className="">
-      <div className=" flex justify-center items-center gap-x-8">
+      <div className=" flex justify-center items-center md:gap-x-8 gap-x-1.5 mx-4 mt-4">
         {/* {page !== 1 && ( */}
           <button
             onClick={() => handlePagination(page - 1)}
