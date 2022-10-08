@@ -53,7 +53,7 @@ export const RegForm: FC = () => {
   }
 
   return (
-    <div className="grid h-screen bg-gray-100">
+    <div className="grid h-80vh bg-gray-100">
       <div className="place-self-center  w-1/4">
         <div className="text-lg font-bold text-center mb-2 text-gray-600">SIGN UP FORM</div>
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -87,7 +87,7 @@ export const RegForm: FC = () => {
 
           {isError ? <div className="text-xs text-red-400"> *All fields are mandatory</div> : null}
           <div className="flex w-full">
-            <button className="bg-blue-500 hover:bg-blue-700 w-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onClick={handleSubmit}>
+            <button aria-label="Sign In" className="bg-primary hover:bg-secondary w-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onClick={handleSubmit}>
               Sign In
             </button>
 

@@ -20,6 +20,7 @@ export const PaginationComponent: React.FC<Props> = ({
             onClick={() => handlePagination(page - 1)}
             disabled = {page === 1 }
             type="button"
+            id="btn"
             className={`focus:outline-none bg-primary rounded-full p-3.5    shadow-md disabled:opacity-50`}
           >
             &lt;

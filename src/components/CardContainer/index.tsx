@@ -4,7 +4,7 @@ import { CardLists } from "./CardLists"
 
 export const CardsList = () => {
   return (
-    <div className="min-h-screen">
+    <div className="h-80vh">
      <CardLists/>
     </div>
   )
